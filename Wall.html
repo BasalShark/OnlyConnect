@@ -1,0 +1,248 @@
+<html>
+	<head>
+		<title>Connecting Wall</title>
+		<style>
+			
+			* {padding: 0; margin: 0;}
+		
+			body {
+				background-image: url("background.PNG");
+				background-size: cover;
+				overflow: hidden;
+			}
+			
+			main {
+				margin: 5vh 12vw;
+			}
+			
+			button {
+				width: 17.5vw;
+				height: 20vh;
+				margin: 0.5vw;
+				font-size: 2.5vw;
+				font-family: Bahnschrift;
+				border-radius: 0.7vw;
+				border-style: none;
+				box-shadow: 2px 3px gray;
+				display: inline-block;
+			}
+			
+			img {
+				margin: 25vh 10vw;
+				width: 30vw;
+				height: auto;
+			}
+			
+		</style>
+	</head>
+	
+	<img src = "lion.png" id = "imageLogo1" onclick = "beginWall1()" style = "display: inline-block; float: left;">
+	<img src = "water.png" id = "imageLogo2" onclick = "beginWall2()" style = "display: inline-block; float: left;">
+	
+	<body>
+		<main id = "wall" style = "display: none;">
+		<button id = "0" onclick = "selectButton(0)">Tango</button>
+		<button id = "1" onclick = "selectButton(1)">Mega</button>
+		<button id = "2" onclick = "selectButton(2)">Radar</button>
+		<button id = "3" onclick = "selectButton(3)">Honey</button>
+		<button id = "4" onclick = "selectButton(4)">Hive</button>
+		<button id = "5" onclick = "selectButton(5)">Sunrise</button>
+		<button id = "6" onclick = "selectButton(6)">Kilo</button>
+		<button id = "7" onclick = "selectButton(7)">Madam</button>
+		<button id = "8" onclick = "selectButton(8)">Foxtrot</button>
+		<button id = "9" onclick = "selectButton(9)">Civic</button>
+		<button id = "10" onclick = "selectButton(10)">Rust</button>
+		<button id = "11" onclick = "selectButton(11)">Never</button>
+		<button id = "12" onclick = "selectButton(12)">Bronze</button>
+		<button id = "13" onclick = "selectButton(13)">Master</button>
+		<button id = "14" onclick = "selectButton(14)">Noon</button>
+		<button id = "15" onclick = "selectButton(15)">Echo</button>
+		</main>
+		
+		<main id = "answers" style = "display: none;">
+		<button id = "16" style = "background-color:#66ccff;"></button>
+		<button id = "17" style = "background-color:#66ccff;"></button>
+		<button id = "18" style = "background-color:#66ccff;"></button>
+		<button id = "19" style = "background-color:#66ccff;"></button>
+		<button id = "20" style = "background-color:red;"></button>
+		<button id = "21" style = "background-color:red;"></button>
+		<button id = "22" style = "background-color:red;"></button>
+		<button id = "23" style = "background-color:red;"></button>
+		<button id = "24" style = "background-color:#66ff33;"></button>
+		<button id = "25" style = "background-color:#66ff33;"></button>
+		<button id = "26" style = "background-color:#66ff33;"></button>
+		<button id = "27" style = "background-color:#66ff33;"></button>
+		<button id = "28" style = "background-color:#ffcc00;"></button>
+		<button id = "29" style = "background-color:#ffcc00;"></button>
+		<button id = "30" style = "background-color:#ffcc00;"></button>
+		<button id = "31" style = "background-color:#ffcc00;"></button>
+
+		
+		</main>
+				
+	</body>
+
+	<script>
+	var wordsOrig1 = ["Hurricane", "Rum", "Yell", "Lightning", "Place", "Mohawk", "Wine", "Bath", "Beer", "Tornado", "Mull", "Bath"];
+	var wordsOrig2 = ["Chips", "Lash", "Intersection", "Granny", "Witness", "Pair", "Reef", "Glass", "Fall", "Stopper", "Flush", "Pants", "Shadow", "House", "Straight", "Slip"];
+	var wordsOrig3 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
+	var wordsOrig4 = ["Sonnet", "Over", "Floor", "Escape", "Cork", "Dash", "Enter", "Ode", "Shift", "Down", "Elegy", "Galway", "Limerick", "Concrete", "Control", "Circuit"];
+	var wordsOrig5 = ["Feud", "Diamond", "Belfast", "Swift", "Enterprise", "Python", "Amber", "Jade", "Onyx", "Moon", "Jet", "Victory", "Ruby", "Brothers", "Orange", "Scratch"];
+
+	
+	function selectButton(selected) {
+		value = 0;
+		repeated = false;
+		
+		//Checks each value in guess to see if already selected
+		while (value < 4 && repeated == false){
+			if (guess[value] == selected){
+				document.getElementById(selected).style.backgroundColor = "white";
+				
+				//Removes value from list
+				for (m = value; m < i; m++) {
+					guess[m] = guess[m+1];
+				}
+				repeated = true;
+				i -= 1
+				guess.pop();
+			}
+			value += 1;
+		}
+		
+		if (repeated == false) {
+			guess[i] = selected;
+			document.getElementById(selected).style.backgroundColor = "#ff9933";
+			i += 1;
+			if (i == 4) {
+				i = 0;
+				guess = bubbleSort(guess);
+				
+				if (checkGroup(guess) == true) {
+				setTimeout(removeGuess, 200, guess);
+				}
+				else {
+				setTimeout(clearGuess, 200, guess);
+				}
+			}
+		}
+	}
+			
+	function bubbleSort(list) {
+		var swapped = true;
+		var n = list.length;
+		var temp, h;
+		while (n >= 0 && swapped == true) {
+			swapped = false;
+			for (h = 0; h <= n-2; h++) {
+				if (list[h] > list[h+1]) {
+					temp = list[h];
+					list[h] = list[h+1];
+					list[h+1] = temp;
+					swapped = true;
+				}
+			}
+			n -= 1;
+		}
+		return list;
+	}
+	
+	function checkGroup(guess) {
+		var k = 0;
+		var found = false;
+		while (found == false && k < groups.length) {
+			if (groups[k].toString() == guess.toString()) {
+				found = true;
+				counter += 1;
+			}
+			k += 1
+		}
+		return found;
+	}
+	
+	
+	function clearGuess(guess) {
+	console.log(guess);
+		for (j = 0; j < 4; j++) {
+			document.getElementById(guess[0]).style.backgroundColor = "white";
+			guess.shift();
+		}
+	}
+	
+	function removeGuess(guess) {
+		for (j = 0; j < 4; j++) {
+			document.getElementById(guess[0]).style.display = "none";
+			guess.shift();
+		}
+		if (counter == 4) {
+			document.getElementById("answers").style.display = "block";
+			for (var k = 0; k < 16; k++) {
+				document.getElementById(k+16).innerHTML = wordsOrig[k];
+			}
+		}
+	}
+	
+	function shuffleArray(array, words) {
+		for (var i = array.length - 1; i > 0; i--) {
+			var j = Math.floor(Math.random() * (i + 1));
+			var temp = array[i];
+			array[i] = array[j];
+			array[j] = temp;
+			temp = words[i];
+			words[i] = words[j];
+			words[j] = temp;
+		}
+	}
+	
+	function beginWall1() {
+		openFullScreen()
+		var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+		var words = Array.from(wordsOrig1);
+		initialiseWall(array, words);
+	}
+	
+	function beginWall2() {
+		openFullScreen()
+		var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+		var words = Array.from(wordsOrig2);
+		initialiseWall(array, words);
+	}
+	
+	function initialiseWall(array, words) {
+		var groups = [[],[],[],[]];
+		var guess = [];
+		var i,counter = 0;
+		var j, value;		
+		
+		shuffleArray(array, words);
+		var number;
+		for (var k = 0; k < 4; k++) {
+			for (var i = 0; i < 4; i++) {
+				number = 4*k + i;
+				document.getElementById(number).innerHTML = words[number];
+				groups[k].push(array.indexOf(number));
+			}
+			groups[k] = bubbleSort(groups[k]);
+		}
+		document.getElementById("wall").style.display = "block";
+	}
+		
+	
+	var elem = document.documentElement;
+	function openFullScreen() {
+		document.body.scrollTop = 0; // For Safari
+		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+		if (elem.requestFullscreen) {
+			elem.requestFullscreen();
+		} else if (elem.mozRequestFullScreen) { /* Firefox */
+			elem.mozRequestFullScreen();
+		} else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
+			elem.webkitRequestFullscreen();
+		} else if (elem.msRequestFullscreen) { /* IE/Edge */
+			elem.msRequestFullscreen();
+		}
+		document.getElementById("imageLogo1").style.display = "none";
+		document.getElementById("imageLogo2").style.display = "none";
+	}	
+	</script>	
+</html>
