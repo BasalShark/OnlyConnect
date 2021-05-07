@@ -25,6 +25,7 @@
 				border-style: none;
 				box-shadow: 2px 3px gray;
 				display: inline-block;
+				background-color: white;
 			}
 			
 			img {
@@ -83,15 +84,26 @@
 	</body>
 
 	<script>
-	var wordsOrig1 = ["Hurricane", "Rum", "Yell", "Lightning", "Place", "Mohawk", "Wine", "Bath", "Beer", "Tornado", "Mull", "Bath"];
-	var wordsOrig2 = ["Chips", "Lash", "Intersection", "Granny", "Witness", "Pair", "Reef", "Glass", "Fall", "Stopper", "Flush", "Pants", "Shadow", "House", "Straight", "Slip"];
+	var wordsOrig5 = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine",  "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
+	var wordsOrig4 = ["Chips", "Intersection", "Fall", "Pants", "Granny", "Reef", "Stopper",  "Slip", "Lash", "Witness", "Shadow", "Glass", "Flush",  "Pair", "House", "Straight"];
 	var wordsOrig3 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-	var wordsOrig4 = ["Sonnet", "Over", "Floor", "Escape", "Cork", "Dash", "Enter", "Ode", "Shift", "Down", "Elegy", "Galway", "Limerick", "Concrete", "Control", "Circuit"];
-	var wordsOrig5 = ["Feud", "Diamond", "Belfast", "Swift", "Enterprise", "Python", "Amber", "Jade", "Onyx", "Moon", "Jet", "Victory", "Ruby", "Brothers", "Orange", "Scratch"];
+	var wordsOrig7 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
+	var wordsOrig1 = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
+	var wordsOrig2 = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
+	var wordsOrig6= ["Pop", "Crackle", "Buzz", "Crack", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
 
-	
+	var groups = [[],[],[],[]];
+	var guess = [];
+	var i = 0;
+	var counter = 0;
+	var j, value;
+	var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
+	var words = [];
+	var wordNum;
+		
 	function selectButton(selected) {
 		value = 0;
+		console.log(selected);
 		repeated = false;
 		
 		//Checks each value in guess to see if already selected
@@ -112,6 +124,8 @@
 		
 		if (repeated == false) {
 			guess[i] = selected;
+			console.log(guess[i]);
+			console.log(guess);
 			document.getElementById(selected).style.backgroundColor = "#ff9933";
 			i += 1;
 			if (i == 4) {
@@ -160,9 +174,7 @@
 		return found;
 	}
 	
-	
 	function clearGuess(guess) {
-	console.log(guess);
 		for (j = 0; j < 4; j++) {
 			document.getElementById(guess[0]).style.backgroundColor = "white";
 			guess.shift();
@@ -174,10 +186,15 @@
 			document.getElementById(guess[0]).style.display = "none";
 			guess.shift();
 		}
-		if (counter == 4) {
+		if (counter == 4 && wordNum == 1) {
 			document.getElementById("answers").style.display = "block";
 			for (var k = 0; k < 16; k++) {
-				document.getElementById(k+16).innerHTML = wordsOrig[k];
+				document.getElementById(k+16).innerHTML = wordsOrig1[k];
+			}
+		} else if (counter == 4 && wordNum == 2) {
+			document.getElementById("answers").style.display = "block";
+			for (var k = 0; k < 16; k++) {
+				document.getElementById(k+16).innerHTML = wordsOrig2[k];
 			}
 		}
 	}
@@ -196,23 +213,19 @@
 	
 	function beginWall1() {
 		openFullScreen()
-		var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-		var words = Array.from(wordsOrig1);
+		words = Array.from(wordsOrig1);
 		initialiseWall(array, words);
+		wordNum = 1;
 	}
 	
 	function beginWall2() {
 		openFullScreen()
-		var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-		var words = Array.from(wordsOrig2);
+		words = Array.from(wordsOrig2);
 		initialiseWall(array, words);
+		wordNum = 2;
 	}
 	
-	function initialiseWall(array, words) {
-		var groups = [[],[],[],[]];
-		var guess = [];
-		var i,counter = 0;
-		var j, value;		
+	function initialiseWall(array, words) {		
 		
 		shuffleArray(array, words);
 		var number;
