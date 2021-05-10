@@ -9,7 +9,7 @@ var wordsOrig = ["Pop", "Crackle", "Buzz", "Crack", "Out", "Dance", "Fast", "Dow
 var wordsOrig = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
 var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
 var wordsOrig1 = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine", "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
-var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bill", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Mullet", "Fade"];
+var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bill", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
 	
 var groups = [[],[],[],[]];
 var guess = [];
