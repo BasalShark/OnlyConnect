@@ -1,14 +1,14 @@
 var wordsOrig = ["Bishop", "Major", "Legend", "Sergeant", "Zinc", "AA", "Car", "Watch", "Admiral", "Churchill", "Confused", "Cooperative", "General", "Private", "Mate", "Cadet"];
 var wordsOrig = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled", "Panda", "Sloth", "Pride", "Greed", "Wrath", "Murder", "Pack", "School", "Caravan"];
-var wordsOrig2 = ["Chips", "Intersection", "Fall", "Pants", "Granny", "Reef", "Stopper",  "Slip", "Lash", "Witness", "Shadow", "Glass", "Flush",  "Pair", "House", "Straight"];
+var wordsOrig = ["Chips", "Intersection", "Fall", "Pants", "Granny", "Reef", "Stopper",  "Slip", "Lash", "Witness", "Shadow", "Glass", "Flush",  "Pair", "House", "Straight"];
 var wordsOrig = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-var wordsOrig1 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
+var wordsOrig = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
 var wordsOrig = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
 var wordsOrig = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
 var wordsOrig = ["Pop", "Crackle", "Buzz", "Crack", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
-var wordsOrig = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
+var wordsOrig2 = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
 var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
-var wordsOrig = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine",  "Flute","Shot", "Bath", "Beer", "Place", "Door"];
+var wordsOrig1 = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine",  "Flute","Shot", "Bath", "Beer", "Place", "Door"];
 	
 var groups = [[],[],[],[]];
 var guess = [];
