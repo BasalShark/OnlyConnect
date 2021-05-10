@@ -1,8 +1,9 @@
 <html>
 	<head>
 		<title>Connecting Wall</title>
+		<script src = "script.js"></script>
 		<style>
-			
+					
 			* {padding: 0; margin: 0;}
 		
 			body {
@@ -34,11 +35,26 @@
 				height: auto;
 			}
 			
+			#next {
+				width: 7.5vw;
+				height: 5vh;
+				margin: 0vh 2vw;
+				font-size: 2.5vw;
+				font-family: Bahnschrift;
+				border-radius: 0.7vw;
+				border-style: none;
+				box-shadow: 2px 3px gray;
+				display: inline-block;
+				float: right;
+				display: none;
+				background-color: lightblue;
+			}
+			
 		</style>
 	</head>
-	
-	<img src = "lion.png" id = "imageLogo1" onclick = "beginWall1()" style = "display: inline-block; float: left;">
-	<img src = "water.png" id = "imageLogo2" onclick = "beginWall2()" style = "display: inline-block; float: left;">
+	<input type = "button" id = "next" value = " >> " onclick = "showAnswers()"/>
+	<img src = "lion.png" id = "imageLogo1" onclick = "beginWall(1)" style = "display: inline-block; float: left;">
+	<img src = "water.png" id = "imageLogo2" onclick = "beginWall(2)" style = "display: inline-block; float: left;">
 	
 	<body>
 		<main id = "wall" style = "display: none;">
@@ -82,180 +98,4 @@
 		</main>
 				
 	</body>
-
-	<script>
-	var wordsOrig5 = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine",  "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
-	var wordsOrig4 = ["Chips", "Intersection", "Fall", "Pants", "Granny", "Reef", "Stopper",  "Slip", "Lash", "Witness", "Shadow", "Glass", "Flush",  "Pair", "House", "Straight"];
-	var wordsOrig3 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-	var wordsOrig7 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
-	var wordsOrig1 = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
-	var wordsOrig2 = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
-	var wordsOrig6= ["Pop", "Crackle", "Buzz", "Crack", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
-
-	var groups = [[],[],[],[]];
-	var guess = [];
-	var i = 0;
-	var counter = 0;
-	var j, value;
-	var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
-	var words = [];
-	var wordNum;
-		
-	function selectButton(selected) {
-		value = 0;
-		console.log(selected);
-		repeated = false;
-		
-		//Checks each value in guess to see if already selected
-		while (value < 4 && repeated == false){
-			if (guess[value] == selected){
-				document.getElementById(selected).style.backgroundColor = "white";
-				
-				//Removes value from list
-				for (m = value; m < i; m++) {
-					guess[m] = guess[m+1];
-				}
-				repeated = true;
-				i -= 1
-				guess.pop();
-			}
-			value += 1;
-		}
-		
-		if (repeated == false) {
-			guess[i] = selected;
-			console.log(guess[i]);
-			console.log(guess);
-			document.getElementById(selected).style.backgroundColor = "#ff9933";
-			i += 1;
-			if (i == 4) {
-				i = 0;
-				guess = bubbleSort(guess);
-				
-				if (checkGroup(guess) == true) {
-				setTimeout(removeGuess, 200, guess);
-				}
-				else {
-				setTimeout(clearGuess, 200, guess);
-				}
-			}
-		}
-	}
-			
-	function bubbleSort(list) {
-		var swapped = true;
-		var n = list.length;
-		var temp, h;
-		while (n >= 0 && swapped == true) {
-			swapped = false;
-			for (h = 0; h <= n-2; h++) {
-				if (list[h] > list[h+1]) {
-					temp = list[h];
-					list[h] = list[h+1];
-					list[h+1] = temp;
-					swapped = true;
-				}
-			}
-			n -= 1;
-		}
-		return list;
-	}
-	
-	function checkGroup(guess) {
-		var k = 0;
-		var found = false;
-		while (found == false && k < groups.length) {
-			if (groups[k].toString() == guess.toString()) {
-				found = true;
-				counter += 1;
-			}
-			k += 1
-		}
-		return found;
-	}
-	
-	function clearGuess(guess) {
-		for (j = 0; j < 4; j++) {
-			document.getElementById(guess[0]).style.backgroundColor = "white";
-			guess.shift();
-		}
-	}
-	
-	function removeGuess(guess) {
-		for (j = 0; j < 4; j++) {
-			document.getElementById(guess[0]).style.display = "none";
-			guess.shift();
-		}
-		if (counter == 4 && wordNum == 1) {
-			document.getElementById("answers").style.display = "block";
-			for (var k = 0; k < 16; k++) {
-				document.getElementById(k+16).innerHTML = wordsOrig1[k];
-			}
-		} else if (counter == 4 && wordNum == 2) {
-			document.getElementById("answers").style.display = "block";
-			for (var k = 0; k < 16; k++) {
-				document.getElementById(k+16).innerHTML = wordsOrig2[k];
-			}
-		}
-	}
-	
-	function shuffleArray(array, words) {
-		for (var i = array.length - 1; i > 0; i--) {
-			var j = Math.floor(Math.random() * (i + 1));
-			var temp = array[i];
-			array[i] = array[j];
-			array[j] = temp;
-			temp = words[i];
-			words[i] = words[j];
-			words[j] = temp;
-		}
-	}
-	
-	function beginWall1() {
-		openFullScreen()
-		words = Array.from(wordsOrig1);
-		initialiseWall(array, words);
-		wordNum = 1;
-	}
-	
-	function beginWall2() {
-		openFullScreen()
-		words = Array.from(wordsOrig2);
-		initialiseWall(array, words);
-		wordNum = 2;
-	}
-	
-	function initialiseWall(array, words) {		
-		
-		shuffleArray(array, words);
-		var number;
-		for (var k = 0; k < 4; k++) {
-			for (var i = 0; i < 4; i++) {
-				number = 4*k + i;
-				document.getElementById(number).innerHTML = words[number];
-				groups[k].push(array.indexOf(number));
-			}
-			groups[k] = bubbleSort(groups[k]);
-		}
-		document.getElementById("wall").style.display = "block";
-	}
-		
-	
-	var elem = document.documentElement;
-	function openFullScreen() {
-		document.body.scrollTop = 0; // For Safari
-		document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-		if (elem.requestFullscreen) {
-			elem.requestFullscreen();
-		} else if (elem.mozRequestFullScreen) { /* Firefox */
-			elem.mozRequestFullScreen();
-		} else if (elem.webkitRequestFullscreen) { /* Chrome, Safari & Opera */
-			elem.webkitRequestFullscreen();
-		} else if (elem.msRequestFullscreen) { /* IE/Edge */
-			elem.msRequestFullscreen();
-		}
-		document.getElementById("imageLogo1").style.display = "none";
-		document.getElementById("imageLogo2").style.display = "none";
-	}	
-	</script>	
 </html>
