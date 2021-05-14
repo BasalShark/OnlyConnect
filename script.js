@@ -25,7 +25,7 @@ var wordsOrig2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled"
 //Game 5 Walls
 
 var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
-var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
+//var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
 
 
 //Other walls (Mine)
@@ -51,7 +51,7 @@ var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "La
 
 //Charlie & Annie
 //var wordsOrig = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
-//var wordsOrig = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Belle", "Lennon", "Sonny"];
+var wordsOrig2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Belle", "Lennon", "Sonny"];
 
 //Aishling & Struan
 //var wordsOrig = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"]
