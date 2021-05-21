@@ -23,10 +23,14 @@ var wordsOrig2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled"
 */
 
 //Game 5 Walls
-
+/*
 var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
-//var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
+var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
+*/
+//Game 6 Walls
 
+var wordsOrig1 = ["Proverbs", "Numbers", "Matthew", "Lamentations", "Word", "Sway", "Defender", "Teams", "Forward", "Keeper", "Wing", "Centre", "Range", "Standing", "Will", "Styles"];
+var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "Trafalgar", "Times", "Sun", "Mirror", "Star", "Telegraph", "North", "Bean", "Flag", "Tad"];
 
 //Other walls (Mine)
 
@@ -50,11 +54,17 @@ var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Coo
 //var wordsOrig2 = ["Vision", "Scope", "Graph", "Phone", "Who", "Al", "Evil", "Strange", "Condor", "Wolverine", "Ghost", "Pelican", "Flash", "Robin", "Atom", "Storm"]
 
 //Charlie & Annie
-//var wordsOrig = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
-var wordsOrig2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Belle", "Lennon", "Sonny"];
+//var wordsOrig1 = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
+//var wordsOrig2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Hall", "Lennon", "Sonny"];
 
 //Aishling & Struan
 //var wordsOrig = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"]
+
+
+//Millie, Islay, Louise
+
+//var wordsOrig1 = ["Persian", "Norwegian Forest", "Munchkin", "Cheshire", "Red", "Bee", "Elizabeth II", "Land", "Screen", "Finger", "News", "Digital", "Dean", "Sherwood", "Dalby", "Galloway"];
+//var wordsOrig2 = ["Marigold", "Mustard", "Canary", "Lemon", "Tulips", "Carnations", "Daisies", "Buttercup", "Rose", "Lilly", "Islay", "Millie", "Ball", "Stool", "Print", "Note"];
 
 var groups = [[],[],[],[]];
 var guess = [];
