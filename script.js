@@ -1,8 +1,8 @@
 //Game 1 Walls
-/*
+
 var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
 var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
-*/
+
 
 //Game 2 Walls
 /*
@@ -37,8 +37,8 @@ var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "
 //Game 7 Walls
 
 //var wordsOrig1 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
-var wordsOrig1 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "Stone", "Spider"];
-var wordsOrig2 = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
+//var wordsOrig1 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "Stone", "Spider"];
+//var wordsOrig2 = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
 
 //Other walls (Mine)
 
