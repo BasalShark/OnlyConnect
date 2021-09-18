@@ -57,8 +57,8 @@ var wordsOrig2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum",
 //Other walls (Mine)
 
 
-var wordsOrig = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
-var wordsOrig = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
+var wordsOrig1 = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
+var wordsOrig2 = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
 
 /*
 var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
