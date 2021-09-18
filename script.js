@@ -1,14 +1,14 @@
 //Game 1 Walls
 
-var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
-var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
+//var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
+//var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
 
 
 //Game 2 Walls
-/*
-var wordsOrig1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
-var wordsOrig2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
-*/
+
+//var wordsOrig1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
+//var wordsOrig2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
+
 
 //Game 3 Walls
 /*
@@ -23,29 +23,49 @@ var wordsOrig2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled"
 */
 
 //Game 5 Walls
-/*
-var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
-var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
-*/
+
+//var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
+//var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
+
 
 //Game 6 Walls
-/*
-var wordsOrig1 = ["Proverbs", "Numbers", "Matthew", "Lamentations", "Word", "Sway", "Defender", "Teams", "Forward", "Keeper", "Wing", "Centre", "Range", "Standing", "Will", "Styles"];
-var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "Trafalgar", "Times", "Sun", "Mirror", "Star", "Telegraph", "North", "Bean", "Flag", "Tad"];
-*/
+
+//var wordsOrig1 = ["Proverbs", "Numbers", "Matthew", "Lamentations", "Word", "Sway", "Defender", "Teams", "Forward", "Keeper", "Wing", "Centre", "Range", "Standing", "Will", "Styles"];
+//var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "Trafalgar", "Times", "Sun", "Mirror", "Star", "Telegraph", "North", "Bean", "Flag", "Tad"];
+
 
 //Game 7 Walls
 
 //var wordsOrig1 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
-//var wordsOrig1 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "Stone", "Spider"];
-//var wordsOrig2 = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
+//var wordsOrig2 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "King", "Spider"];
+
+
+//Game 8 Walls
+//var wordsOrig1 = ["Scope", "Barrel", "Magazine", "Stock", "Black", "Super", "Target", "Hyper", "Animated", "Energized", "Eager", "Stimulated", "Monster", "Rockstar", "Boost", "Relentless"];
+//var wordsOrig2 = ["City", "Architecture", "Creator", "Kingdoms", "Morse", "Gadget", "Javert", "Clouseau", "State", "Income", "Property", "Council",  "Province", "County", "District", "Territory"];
+
+//Game 9 Walls
+//var wordsOrig1 = ["Phoenix", "Austin", "Olympia", "Providence", "Horse", "Will", "Brain", "Nuclear", "Bridge", "String", "Peg", "Neck", "Griffin", "Benu", "Harpy", "Garuda"]; 
+//var wordsOrig2 = ["Waterloo", "SOS", "Money", "Queen", "Tax", "Test", "Challenge", "Stretch", "Strain", "Scar", "Struck", "Slander", "Honey", "Jelly", "Wax", "Propolis"];
+
+//Game 10 Walls
+/*
+var wordsOrig1 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Canon", "Nikon", "Elbrus", "Blanc", "Scenery", "Rosa", "Wit", "Bianco", "Gwyn", "Branco"]; 
+var wordsOrig2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum", "Screwball", "Slider", "Sinker", "Eephus", "Curveball", "Social", "Earth", "Rocket", "Con"];
+*/
 
 //Other walls (Mine)
 
-//var wordsOrig2 = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
-//var wordsOrig = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-//var wordsOrig = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
 
+var wordsOrig = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
+var wordsOrig = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
+
+/*
+var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
+var wordsOrig = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
+var wordsOrig = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
+var wordsOrig = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
+*/
 
 //Other walls (Not mine)
 
@@ -66,13 +86,21 @@ var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "
 //var wordsOrig2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Hall", "Lennon", "Sonny"];
 
 //Aishling & Struan
-//var wordsOrig = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"]
-
+//var wordsOrig = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"];
 
 //Millie, Islay, Louise
-
 //var wordsOrig1 = ["Persian", "Norwegian Forest", "Munchkin", "Cheshire", "Red", "Bee", "Elizabeth II", "Land", "Screen", "Finger", "News", "Digital", "Dean", "Sherwood", "Dalby", "Galloway"];
 //var wordsOrig2 = ["Marigold", "Mustard", "Canary", "Lemon", "Tulips", "Carnations", "Daisies", "Buttercup", "Rose", "Lilly", "Islay", "Millie", "Ball", "Stool", "Print", "Note"];
+
+//Mhairi
+//var wordsOrig2 = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
+
+//?
+//var wordsOrig2 = ["Mouth", "Hole", "Hound", "Bent", "Fever", "Days", "Rules", "Ball", "Mooo", "Candy", "Streets", "Freak", "Beach", "Fall", "Now", "Humanz"];
+
+//Jack & Callum
+//wordsOrig1 = ["Cat","Kabota","New Holland","Case","Watts","Pine","Rock","Pratt","Reindeer","Narwhal","Sea Lion","Beluga","Dragon","Blue Spruce","Curry","Banyan"];
+//wordsOrig2 = ["Ney","Marut","Bernadotte","Davout","Moo","Ba","eee-aaawwww","Oink","Tiber","Thames","Hudson","Potomac","Lee","Grant","Jackson","McClellan"];
 
 var groups = [[],[],[],[]];
 var guess = [];
@@ -80,21 +108,20 @@ var counter = 0;
 var j, value;
 var array = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15];
 var words = [];
+var grid = [];
 var elem = document.documentElement;	
-var wordNum;
 var alive = true;
 var lives = 3;
+var buttonNum, found, index;
 
 //Called by hieroglyphs - sets up the wall.	
 function beginWall(wordNumber) {
 	if (wordNumber == 1) {
-		words = Array.from(wordsOrig1);
-		wordNum = 1;
+		grid = Array.from(wordsOrig1);
 	} else {
-		words = Array.from(wordsOrig2);
-		wordNum = 2;
+		grid = Array.from(wordsOrig2);
 	}
-	
+	words = Array.from(grid);
 	openFullScreen();
 	shuffleArray(array, words);
 	sortGroups(array, words);
@@ -228,12 +255,15 @@ function clearGuess(guess) {
 	}	
 }
 
-
 //Correct guesses
 function removeGuess(guess) {
+	buttonNum = 0;
 	while (guess.length > 0) {
 		document.getElementById(guess[0]).style.display = "none";
+		document.getElementById(4*counter + buttonNum + 16).innerHTML = words[guess[0]];
+		document.getElementById(4*counter + buttonNum + 16).style.display = "block";
 		guess.shift();
+		buttonNum += 1;
 	}
 	counter += 1;
 	if (counter == 3) {
@@ -241,19 +271,23 @@ function removeGuess(guess) {
 	}
 }
 
-
 function showAnswers() {
 	document.getElementById("wall").style.display = "none";
 	document.getElementById("next").style.display = "none";
-	document.getElementById("answers").style.display = "block";
-	
-	if (wordNum == 1) {
-		for (var k = 0; k < 16; k++) {
-			document.getElementById(k+16).innerHTML = wordsOrig1[k];
+	var currentNum = counter * 4 + 16;
+	for (var v = 0; v < 16; v++) {
+		found = false;
+		index = 16;
+		while (found == false && index < 32) {
+			if (grid[v] == document.getElementById(index).innerHTML) {
+				found = true;
+			}
+			index += 1;
 		}
-	} else {
-		for (var k = 0; k < 16; k++) {
-			document.getElementById(k+16).innerHTML = wordsOrig2[k];
+		if (found == false) {
+			document.getElementById(currentNum).innerHTML = grid[v];
+			document.getElementById(currentNum).style.display = "block";
+			currentNum += 1;
 		}
-	}
+	}	
 }
