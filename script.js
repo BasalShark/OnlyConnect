@@ -1,20 +1,20 @@
 //Game 1 Walls
-
-//var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
-//var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
-
+/*
+var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
+var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
+*/
 
 //Game 2 Walls
-
-//var wordsOrig1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
-//var wordsOrig2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
-
+/*
+var wordsOrig1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
+var wordsOrig2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
+*/
 
 //Game 3 Walls
-/*
+
 var wordsOrig1 = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
 var wordsOrig2 = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
-*/
+
 
 //Game 4 Walls
 /*
@@ -49,28 +49,28 @@ var wordsOrig2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled"
 //var wordsOrig2 = ["Waterloo", "SOS", "Money", "Queen", "Tax", "Test", "Challenge", "Stretch", "Strain", "Scar", "Struck", "Slander", "Honey", "Jelly", "Wax", "Propolis"];
 
 //Game 10 Walls
-/*
-var wordsOrig1 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Canon", "Nikon", "Elbrus", "Blanc", "Scenery", "Rosa", "Wit", "Bianco", "Gwyn", "Branco"]; 
-var wordsOrig2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum", "Screwball", "Slider", "Sinker", "Eephus", "Curveball", "Social", "Earth", "Rocket", "Con"];
-*/
+
+//var wordsOrig1 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Canon", "Nikon", "Elbrus", "Blanc", "Scenery", "Rosa", "Wit", "Bianco", "Gwyn", "Branco"]; 
+//var wordsOrig2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum", "Screwball", "Slider", "Sinker", "Eephus", "Curveball", "Social", "Earth", "Rocket", "Con"];
+
 
 //Other walls (Mine)
 
 
-var wordsOrig1 = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
-var wordsOrig2 = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
+//var wordsOrig = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
+//var wordsOrig = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
 
 /*
 var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
-var wordsOrig = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-var wordsOrig = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
-var wordsOrig = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
+var wordsOrig1 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
+var wordsOrig2 = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
 */
+//var wordsOrig2 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
 
 //Other walls (Not mine)
 
 //Molly:
-//var wordsOrig = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
+//var wordsOrig1 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
 
 //Molly & George
 //var wordsOrig = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine", "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
