@@ -1,106 +1,57 @@
-//Game 1 Walls
-/*
-var wordsOrig1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
-var wordsOrig2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
-*/
-
-//Game 2 Walls
-/*
-var wordsOrig1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
-var wordsOrig2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
-*/
-
-//Game 3 Walls
-
-var wordsOrig1 = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
-var wordsOrig2 = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
-
-
-//Game 4 Walls
-/*
-var wordsOrig1 = ["Bishop", "Major", "Legend", "Sergeant", "Zinc", "AA", "Car", "Watch", "Admiral", "Churchill", "Confused", "Cooperative", "General", "Private", "Mate", "Cadet"];
-var wordsOrig2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled", "Panda", "Sloth", "Pride", "Greed", "Wrath", "Murder", "Pack", "School", "Caravan"];
-*/
-
-//Game 5 Walls
-
-//var wordsOrig1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
-//var wordsOrig2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
-
-
-//Game 6 Walls
-
-//var wordsOrig1 = ["Proverbs", "Numbers", "Matthew", "Lamentations", "Word", "Sway", "Defender", "Teams", "Forward", "Keeper", "Wing", "Centre", "Range", "Standing", "Will", "Styles"];
-//var wordsOrig2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "Trafalgar", "Times", "Sun", "Mirror", "Star", "Telegraph", "North", "Bean", "Flag", "Tad"];
-
-
-//Game 7 Walls
-
-//var wordsOrig1 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
-//var wordsOrig2 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "King", "Spider"];
-
-
-//Game 8 Walls
-//var wordsOrig1 = ["Scope", "Barrel", "Magazine", "Stock", "Black", "Super", "Target", "Hyper", "Animated", "Energized", "Eager", "Stimulated", "Monster", "Rockstar", "Boost", "Relentless"];
-//var wordsOrig2 = ["City", "Architecture", "Creator", "Kingdoms", "Morse", "Gadget", "Javert", "Clouseau", "State", "Income", "Property", "Council",  "Province", "County", "District", "Territory"];
-
-//Game 9 Walls
-//var wordsOrig1 = ["Phoenix", "Austin", "Olympia", "Providence", "Horse", "Will", "Brain", "Nuclear", "Bridge", "String", "Peg", "Neck", "Griffin", "Benu", "Harpy", "Garuda"]; 
-//var wordsOrig2 = ["Waterloo", "SOS", "Money", "Queen", "Tax", "Test", "Challenge", "Stretch", "Strain", "Scar", "Struck", "Slander", "Honey", "Jelly", "Wax", "Propolis"];
-
-//Game 10 Walls
-
-//var wordsOrig1 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Canon", "Nikon", "Elbrus", "Blanc", "Scenery", "Rosa", "Wit", "Bianco", "Gwyn", "Branco"]; 
-//var wordsOrig2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum", "Screwball", "Slider", "Sinker", "Eephus", "Curveball", "Social", "Earth", "Rocket", "Con"];
-
+//Game walls
+var w1_1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
+var w1_2 = ["Death", "Mail", "Adder", "Beauty", "Pong", "Snake", "Asteroids", "Gauntlet", "Ace", "Love", "Serve", "Volley", "Cardboard", "Match", "Post", "Tool"];
+var w2_1 = ["Nicholson", "Black", "Frost", "Sparrow", "Link", "Peach", "Daisy", "Toad", "Whitehall", "Buckingham", "Kensington", "Scone", "Rhea", "Penguin", "Emu", "Kiwi"];
+var w2_2 = ["Spider", "Strong", "Police", "Fire", "Polo", "Lacrosse", "Hurling", "Hockey", "Bee", "Worm", "Snail", "Fly", "Atlas", "Golf", "Caddy", "Beetle"];
+var w3_1 = ["Sonnet", "Ode", "Elegy", "Concrete", "Over", "Floor", "Circuit", "Dash", "Escape", "Control", "Enter", "Shift", "Down", "Galway", "Cork", "Limerick"];
+var w3_2 = ["Diamond", "Belfast", "Enterprise", "Victory", "Amber", "Jade", "Onyx", "Jet", "Feud", "Brothers", "Moon", "Orange", "Scratch", "Swift", "Ruby", "Python"];
+var w4_1 = ["Bishop", "Major", "Legend", "Sergeant", "Zinc", "AA", "Car", "Watch", "Admiral", "Churchill", "Confused", "Cooperative", "General", "Private", "Mate", "Cadet"];
+var w4_2 = ["Cycle", "Polar", "Plane", "Son", "Black", "Sun", "Spectacled", "Panda", "Sloth", "Pride", "Greed", "Wrath", "Murder", "Pack", "School", "Caravan"];
+var w5_1 = ["Port", "Hold", "Bridge", "Bow", "Shut", "Count", "Lock", "Cool", "Steady", "Calm", "Compose", "Relax", "Bourbon", "Club", "Nice", "Penguin"];
+var w5_2 = ["Barrel", "Cross", "Dutch", "Bass", "Heel", "Cap", "Sole", "Lace", "Corkscrew", "Pike", "Tuck", "Twist", "Bun", "Extension", "Highlight", "Fade"];
+var w6_1 = ["Proverbs", "Numbers", "Matthew", "Lamentations", "Word", "Sway", "Defender", "Teams", "Forward", "Keeper", "Wing", "Centre", "Range", "Standing", "Will", "Styles"];
+var w6_2 = ["Sargasso", "Dead", "Black", "Adriatic", "Red", "Tiananmen", "Trafalgar", "Times", "Sun", "Mirror", "Star", "Telegraph", "North", "Bean", "Flag", "Tad"];
+var w7_1 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
+var w7_2 = ["Rollerball", "Fountain", "Felt", "Gel", "Suede", "Velvet", "Jersey", "Canvas", "Tweed", "Spey", "Tyne", "Forth", "Hermit", "Red", "King", "Spider"];
+var w8_1 = ["Scope", "Barrel", "Magazine", "Stock", "Black", "Super", "Target", "Hyper", "Animated", "Energized", "Eager", "Stimulated", "Monster", "Rockstar", "Boost", "Relentless"];
+var w8_2 = ["City", "Architecture", "Creator", "Kingdoms", "Morse", "Gadget", "Javert", "Clouseau", "State", "Income", "Property", "Council", "Province", "County", "District", "Territory"];
+var w9_1 = ["Phoenix", "Austin", "Olympia", "Providence", "Horse", "Will", "Brain", "Nuclear", "Bridge", "String", "Peg", "Neck", "Griffin", "Benu", "Harpy", "Garuda"]; 
+var w9_2 = ["Waterloo", "SOS", "Money", "Queen", "Tax", "Test", "Challenge", "Stretch", "Strain", "Scar", "Struck", "Slander", "Honey", "Jelly", "Wax", "Propolis"];
+var w10_1 = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
+var w10_2 = ["Taboo", "Boggle", "Clue", "Risk", "Twister", "Fab", "Magnum", "Screwball", "Slider", "Sinker", "Eephus", "Curveball", "Social", "Earth", "Rocket", "Con"];
+var w11_1 = ["Bridges", "Boyle", "Brand", "Fielding", "Diaz", "Holt", "Hitchcock", "Jeffords", "Santiago", "Lima", "Sucre", "Quito", "Hutch", "Burrow", "Sett", "Lair" ]
+var w11_2 = ["Attrition", "Total", "Civil", "Guerilla", "Family", "Property", "Commercial", "Roman", "Shrink", "Wither", "Contract", "Reduce", "Sailing", "Operator", "Criminal", "Over"]
+var w12_1 = ["Hubble", "Inception", "Titanic", "Revenant", "Hawking", "Pearl", "Marmaduke", "Malady", "Lemures", "Phantom", "Spectre", "Familiar", "Devil", "Poach", "Baste", "Scramble"]
+var w12_2 = ["Emperor", "Fairy", "Macaroni", "Rockhopper", "Rigatoni", "Romeo", "Bernard", "Parishioner", "Lasagne", "Spaghetti", "Penne", "Ravioli", "Belvolio", "Montague", "Mercutio", "Capulet"]
 
 //Other walls (Mine)
-
-
-//var wordsOrig = ["Keep", "Tower", "Bailey", "Stockade", "Rampart", "Bullfrog", "Cockney", "Buckfast", "Brummie", "Geordie", "Mancunian", "RP", "Scouse", "Hotpot", "Casserole", "Stew"]; 
-//var wordsOrig = ["Shield", "Claws", "Lasso", "Web", "Hammer", "Smash", "Waste", "Plaster", "China", "Biscuit", "Terracotta", "Porcelain", "Clear", "Drop", "Drive", "Kill"];
-
-/*
-var wordsOrig = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
-var wordsOrig1 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-var wordsOrig2 = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
-*/
-//var wordsOrig2 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
+var Egg1 = ["Trolley", "Plaster", "Waste", "Hammer", "Smash", "Glee", "Star", "Fame", "Origin", "Steam", "Blizzard", "Epic", "Bowl", "Washer", "Horseshoe", "Quoit"]; 
+var Egg2 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Canon", "Nikon", "Elbrus", "Blanc", "Scenery", "Rosa", "Wit", "Bianco", "Gwyn", "Branco"]; 
+var Egg3 = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
+var Egg4 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
+var Egg5 = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", "Parking", "Jail", "Chance", "Go", "Cheat", "Bridge", "Gin", "Snap"];
+var Egg6 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
 
 //Other walls (Not mine)
+var Molly1 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
+var MollyGeorge = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine", "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
+var CallumStruan = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
+var CallumDylanCharlie = ["Vision", "Scope", "Graph", "Phone", "Who", "Al", "Evil", "Strange", "Condor", "Wolverine", "Ghost", "Pelican", "Flash", "Robin", "Atom", "Storm"]
+var CharlieAnnie1 = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
+var CharlieAnnie2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Hall", "Lennon", "Sonny"];
+var AishlingStruan = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"];
+var MillieIslayLouise1 = ["Persian", "Norwegian Forest", "Munchkin", "Cheshire", "Red", "Bee", "Elizabeth II", "Land", "Screen", "Finger", "News", "Digital", "Dean", "Sherwood", "Dalby", "Galloway"];
+var MillieIslayLouise2 = ["Marigold", "Mustard", "Canary", "Lemon", "Tulips", "Carnations", "Daisies", "Buttercup", "Rose", "Lilly", "Islay", "Millie", "Ball", "Stool", "Print", "Note"];
+var Mhairi = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
+var Anonymous = ["Mouth", "Hole", "Hound", "Bent", "Fever", "Days", "Rules", "Ball", "Mooo", "Candy", "Streets", "Freak", "Beach", "Fall", "Now", "Humanz"];
+var JackCallum1 = ["Cat","Kabota","New Holland","Case","Watts","Pine","Rock","Pratt","Reindeer","Narwhal","Sea Lion","Beluga","Dragon","Blue Spruce","Curry","Banyan"];
+var JackCallum2 = ["Ney","Marut","Bernadotte","Davout","Moo","Ba","eee-aaawwww","Oink","Tiber","Thames","Hudson","Potomac","Lee","Grant","Jackson","McClellan"];
+var Calum = ["Knife", "Tsunami", "Gnome", "Pneumonoultramicroscopicsilicovolcanoconiosis", "Weetos", "Life Preserver", "Black Hole", "Torus", "Park", "Place", "Avenue", "Road", "Morgan", "Kraken", "Havana", "Lambs"]
 
-//Molly:
-//var wordsOrig1 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
+var lionWords = w12_1;
+var waterWords = w12_2;
 
-//Molly & George
-//var wordsOrig = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine", "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
-
-//Callum & Struan
-//var wordsOrig1 = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
-
-//Callum, Dylan & Charlie
-//var wordsOrig2 = ["Vision", "Scope", "Graph", "Phone", "Who", "Al", "Evil", "Strange", "Condor", "Wolverine", "Ghost", "Pelican", "Flash", "Robin", "Atom", "Storm"]
-
-//Charlie & Annie
-//var wordsOrig1 = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
-//var wordsOrig2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Hall", "Lennon", "Sonny"];
-
-//Aishling & Struan
-//var wordsOrig = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"];
-
-//Millie, Islay, Louise
-//var wordsOrig1 = ["Persian", "Norwegian Forest", "Munchkin", "Cheshire", "Red", "Bee", "Elizabeth II", "Land", "Screen", "Finger", "News", "Digital", "Dean", "Sherwood", "Dalby", "Galloway"];
-//var wordsOrig2 = ["Marigold", "Mustard", "Canary", "Lemon", "Tulips", "Carnations", "Daisies", "Buttercup", "Rose", "Lilly", "Islay", "Millie", "Ball", "Stool", "Print", "Note"];
-
-//Mhairi
-//var wordsOrig2 = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
-
-//?
-//var wordsOrig2 = ["Mouth", "Hole", "Hound", "Bent", "Fever", "Days", "Rules", "Ball", "Mooo", "Candy", "Streets", "Freak", "Beach", "Fall", "Now", "Humanz"];
-
-//Jack & Callum
-//wordsOrig1 = ["Cat","Kabota","New Holland","Case","Watts","Pine","Rock","Pratt","Reindeer","Narwhal","Sea Lion","Beluga","Dragon","Blue Spruce","Curry","Banyan"];
-//wordsOrig2 = ["Ney","Marut","Bernadotte","Davout","Moo","Ba","eee-aaawwww","Oink","Tiber","Thames","Hudson","Potomac","Lee","Grant","Jackson","McClellan"];
+// Script code below:  --------------------------------------------------------------------------------------------------------\\
 
 var groups = [[],[],[],[]];
 var guess = [];
@@ -112,20 +63,23 @@ var grid = [];
 var elem = document.documentElement;	
 var alive = true;
 var lives = 3;
+var numMins = 4;
 var buttonNum, found, index;
+var coloursList = ["#054970", "#057b5b", "#562042", "#056f7c"]
 
 //Called by hieroglyphs - sets up the wall.	
 function beginWall(wordNumber) {
 	if (wordNumber == 1) {
-		grid = Array.from(wordsOrig1);
+		grid = Array.from(lionWords);
 	} else {
-		grid = Array.from(wordsOrig2);
+		grid = Array.from(waterWords);
 	}
 	words = Array.from(grid);
 	openFullScreen();
 	shuffleArray(array, words);
 	sortGroups(array, words);
 	document.getElementById("wall").style.display = "block";
+	startTimer()
 }
 
 //Shuffles the words array.
@@ -180,9 +134,34 @@ function openFullScreen() {
 	}
 	document.getElementById("imageLogo1").style.display = "none";
 	document.getElementById("imageLogo2").style.display = "none";
+	document.getElementById("lives").style.display = "none";
+	document.getElementById("progress").style.display = "block";
 	document.getElementById("next").style.display = "block";
 	
 }
+
+//Starts the countdown timer
+
+function startTimer() {
+	var elem = document.getElementById("bar");   
+	var width = 0;
+	var id = setInterval(frame, 50);
+	function frame() {
+		if (width >= 50 && alive == true) {
+			clearInterval(id);
+			for (var number = 0; number < 16; number++) {
+				alive = false;
+				document.getElementById(number).style.color = "#1e4664";
+				document.getElementById(number).style.backgroundColor = "#cccccc";
+			}
+		} else {
+			//width=width+(50*50)/(numMins*60*1000); 
+			width += (50*50)/(numMins*60*1000); 
+			elem.style.width = width + 'vw'; 
+		}
+	}
+}
+
 
 //--------------------------------- Selection ------------------------------------------\\
 	
@@ -193,6 +172,7 @@ function selectButton(selected) {
 	//Checks each value in guess to see if already selected
 	while (value < 4 && repeated == false && alive == true){
 		if (guess[value] == selected){
+			document.getElementById(selected).style.color = "#1e4664";
 			document.getElementById(selected).style.backgroundColor = "white";
 			
 			//Removes value from list
@@ -208,7 +188,8 @@ function selectButton(selected) {
 	//Add guess to guess array
 	if (repeated == false && alive == true) {
 		guess.push(selected);
-		document.getElementById(selected).style.backgroundColor = "#ff9933";
+		document.getElementById(selected).style.color = "white";
+		document.getElementById(selected).style.backgroundColor = coloursList[0];
 	}
 	
 	//If guess has four values, sort guess array and then check if it matches.
@@ -240,16 +221,20 @@ function checkGroup(guess) {
 //Incorrect guesses
 function clearGuess(guess) {
 	if (counter == 2) {
+		document.getElementById("lives"+lives).style.display = "none";
 		lives -= 1;
 	}
+	
 	if (lives == 0) {
 		alive = false;
 		for (var number = 0; number < 16; number++) {
+			document.getElementById(number).style.color = "#1e4664";
 			document.getElementById(number).style.backgroundColor = "#cccccc";
 		}
 	} else {
 		while (guess.length > 0) {
-			document.getElementById(guess[0]).style.backgroundColor = "white";
+			document.getElementById(guess[0]).style.backgroundColor = "#f3f9ff";
+			document.getElementById(guess[0]).style.color = "#1e4664";
 			guess.shift();
 		}
 	}	
@@ -265,8 +250,12 @@ function removeGuess(guess) {
 		guess.shift();
 		buttonNum += 1;
 	}
+	coloursList.shift();
 	counter += 1;
-	if (counter == 3) {
+	
+	if (counter == 2) {
+		document.getElementById("lives").style.display = "block"
+	} else if (counter == 3) {
 		showAnswers();
 	}
 }
