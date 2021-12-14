@@ -173,7 +173,7 @@ function selectButton(selected) {
 	while (value < 4 && repeated == false && alive == true){
 		if (guess[value] == selected){
 			document.getElementById(selected).style.color = "#1e4664";
-			document.getElementById(selected).style.backgroundColor = "white";
+			document.getElementById(selected).style.backgroundColor = "#f3f9ff";
 			
 			//Removes value from list
 			for (m = value; m < guess.length; m++) {
