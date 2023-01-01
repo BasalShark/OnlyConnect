@@ -7,7 +7,7 @@
 			* {padding: 0; margin: 0;}
 		
 			body {
-				background-image: url("back3.png");
+				background-image: url("back3.PNG");
 				background-size: cover;
 				overflow: hidden;
 			}
@@ -48,7 +48,7 @@
 				height: auto;
 			}
 			
-			#next {
+			#next, #homeReturn {
 				width: 7.5vw;
 				height: 5vh;
 				margin: 0vh 2vw;
@@ -87,16 +87,20 @@
 			
 		</style>
 	</head>
-	<input type = "button" id = "next" onclick = "showAnswers()"/>
-	<img src = "lion2.png" id = "imageLogo1" class = "imageLogo" onclick = "beginWall(1)" style = "display: inline-block; float: left;">
-	<img src = "water2.png" id = "imageLogo2" class = "imageLogo" onclick = "beginWall(2)" style = "display: inline-block; float: left;">
-	
 	<body>
-		<main id = "answers">
-		<button id = "16" style = "background-color:#054970;"></button>
-		<button id = "17" style = "background-color:#054970;"></button>
-		<button id = "18" style = "background-color:#054970;"></button>
-		<button id = "19" style = "background-color:#054970;"></button>
+		<img src = "lion2.png" id = "imageLogo1" class = "imageLogo" onclick = "beginWall(0)" style = "display: inline-block; float: left;">
+		<img src = "water2.png" id = "imageLogo2" class = "imageLogo" onclick = "beginWall(1)" style = "display: inline-block; float: left;">
+	
+		<section id = "gameboard">
+			<input type = "button" id = "next" onclick = "showAnswers()"/>
+			<input type = "button" id = "homeReturn" onclick = "location.reload()"/>
+			
+			
+			<main id = "answers">
+			<button id = "16" style = "background-color:#054970;"></button>
+			<button id = "17" style = "background-color:#054970;"></button>
+			<button id = "18" style = "background-color:#054970;"></button>
+			<button id = "19" style = "background-color:#054970;"></button>
 		<button id = "20" style = "background-color:#057b5b;"></button>
 		<button id = "21" style = "background-color:#057b5b;"></button>
 		<button id = "22" style = "background-color:#057b5b;"></button>
@@ -140,6 +144,9 @@
 			<div id = "bar"></div>
 		</div>
 		
-		</main>		
+		</main>	
+		</section>
+		
+		<audio id = "whoosh"><source src = "Whoosh.mp3"></audio>
 	</body>
 </html>
