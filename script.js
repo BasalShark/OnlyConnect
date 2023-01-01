@@ -24,11 +24,13 @@ var w11_2 = ["Attrition", "Total", "Civil", "Guerilla", "Family", "Property", "C
 var w12_1 = ["Hubble", "Inception", "Titanic", "Revenant", "Hawking", "Pearl", "Marmaduke", "Malady", "Lemures", "Phantom", "Spectre", "Familiar", "Devil", "Poach", "Baste", "Scramble"];
 var w12_2 = ["Emperor", "Fairy", "Macaroni", "Rockhopper", "Rigatoni", "Romeo", "Bernard", "Parishioner", "Lasagne", "Spaghetti", "Penne", "Ravioli", "Belvolio", "Montague", "Mercutio", "Capulet"];
 var w13_1 = ["Radioactive", "Demons", "Roots", "Polaroid", "Olympus", "Kodak", "Nikon", "Panasonic", "Canon", "Works", "Oeuvre", "Opus", "Collection", "Brownie", "Decimal", "Vanishing"];
-var w13_2 = ["Trolley", "Plaster", "Waste", "Hammer", "Grass", "Mother", "Timber","Wonder", "Origin", "Steam", "Blizzard", "Epic", "Canal", "Drum", "Nerve", "Anvil"];
+var w13_2 = ["Trolley", "Plaster", "Waste", "Hammer", "Grass", "Mother", "Timber", "Wonder", "Origin", "Steam", "Blizzard", "Epic", "Canal", "Drum", "Nerve", "Anvil"];
 var w14_1 = ["Barkley", "Rhye", "Oath", "Acorn", "Magic", "Forever", "Pressure", "Champions", "Premier", "Ivy", "Human", "Super", "Rocket", "Bay", "Sage", "Tarragon"]; 
 var w14_2 = ["Tragedy", "Heartbeat", "Stomp", "Chain Reaction", "Combustion", "Search", "Jet", "Steam", "Jeopardy", "Password", "Double Dare", "Wipeout", "Pin", "Biometric", "Certificate", "Key"];  
 var w15_1 = ["Heart", "Capital", "Kingdom", "Classic", "Kiss", "Fry", "Door", "Bulldog", "Foal", "Kit", "Lamb", "Chick", "Cub", "Impression", "Modern", "Surreal"]; 
 var w15_2 = ["Falcon", "Dome", "Bridge", "Prize", "Apex", "Root", "Sinus", "Palate", "Bug", "Tap", "Wire", "Earwig", "Kite", "Hobby", "Harrier", "Hawk"]; 
+var w16_1 = ["Coffee", "Green", "String", "Butter", "Jelly", "Tickle", "Strong", "Bump", "Runner", "Gully", "Slip", "Bowler", "Couloir", "Gulf", "Gorge", "Pass"]
+var w16_2 = ["Flubber", "Hook", "Aladdin", "Jumanji", "Mrs. Doubtfire", "Rainwater", "Hearth", "Chair", "Mantle", "Plinth", "Corbel", "Firebox", "Core", "Nucleus", "Crux", "Essence"]
 
 //Other walls (Mine)
 var Egg1 = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
@@ -37,6 +39,8 @@ var Egg3 = ["Pop", "Crackle", "Buzz", "Crunch", "Out", "Dance", "Fast", "Down", 
 var Egg4 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
 var Egg5 = ["Jelen", "Folly", "Bayley", "Rope", "Barratt", "Wimpey", "Bellway", "Persimmon", "Mason", "Canopic", "Jam", "Bell", "West", "Chadwick", "Whitfield", "Glasgow", "Hussain"];
 var Egg6 = ["Grieve", "Richards", "Rankin", "Smart", "Eye", "Queue", "Tea", "Oh", "Holland", "Jones", "Cruise", "Hooper", "Curran", "Sultan", "Fi", "Dat"];
+//var Egg7 = ["Duncan", "Buchanan", "Mirza", "Moore", "Jones", "Rogers", "Blake", "Dinkley", "Ganner", "Wylie"]
+
 
 //Other walls (Not mine)
 var Molly1 = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
@@ -58,8 +62,8 @@ var Oli2 = ["The North Pole", "EastEnders", "Westminster Abbey", "South Park", "
 var Filip = ["Gallium", "Rubidium", "Caesium", "Francium", "Mercury", "Penis", "Leech", "Cayenne Pepper", "Barrel", "Glazing","Edged-Sword", "Helix", "Kneading", "Battering", "Simmering", "Drizzling"];
 
 
-var lionWords = w15_1;
-var waterWords = w15_2;
+var lionWords = w16_1;
+var waterWords = w16_2;
 
 // Script code below:  --------------------------------------------------------------------------------------------------------\\
 
@@ -78,8 +82,8 @@ var buttonNum, found, index;
 var coloursList = ["#054970", "#057b5b", "#562042", "#056f7c"]
 
 //Called by hieroglyphs - sets up the wall.	
-function beginWall(wordNumber) {
-	if (wordNumber == 1) {
+function beginWall(wallNumber) {
+	if (wallNumber == 0) {
 		grid = Array.from(lionWords);
 	} else {
 		grid = Array.from(waterWords);
@@ -165,7 +169,6 @@ function startTimer() {
 				document.getElementById(number).style.backgroundColor = "#cccccc";
 			}
 		} else {
-			//width=width+(50*50)/(numMins*60*1000); 
 			width += (50*50)/(numMins*60*1000); 
 			elem.style.width = width + 'vw'; 
 		}
@@ -207,6 +210,7 @@ function selectButton(selected) {
 		guess = insertionSort(guess);
 			
 		if (checkGroup(guess) == true) {
+			document.getElementById("whoosh").play();
 			setTimeout(removeGuess, 200, guess);
 		}
 		else {
@@ -253,6 +257,7 @@ function clearGuess(guess) {
 //Correct guesses
 function removeGuess(guess) {
 	buttonNum = 0;
+		
 	while (guess.length > 0) {
 		document.getElementById(guess[0]).style.display = "none";
 		document.getElementById(4*counter + buttonNum + 16).innerHTML = words[guess[0]];
@@ -264,7 +269,7 @@ function removeGuess(guess) {
 	counter += 1;
 	
 	if (counter == 2) {
-		document.getElementById("lives").style.display = "block"
+		document.getElementById("lives").style.display = "block";
 	} else if (counter == 3) {
 		showAnswers();
 	}
@@ -273,6 +278,7 @@ function removeGuess(guess) {
 function showAnswers() {
 	document.getElementById("wall").style.display = "none";
 	document.getElementById("next").style.display = "none";
+	document.getElementById("homeReturn").style.display = "block";
 	var currentNum = counter * 4 + 16;
 	for (var v = 0; v < 16; v++) {
 		found = false;
@@ -290,3 +296,4 @@ function showAnswers() {
 		}
 	}	
 }
+	
