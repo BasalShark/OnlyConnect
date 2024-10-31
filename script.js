@@ -66,8 +66,8 @@ var Oli2 = ["The North Pole", "EastEnders", "Westminster Abbey", "South Park", "
 var Filip = ["Gallium", "Rubidium", "Caesium", "Francium", "Mercury", "Penis", "Leech", "Cayenne Pepper", "Barrel", "Glazing","Edged-Sword", "Helix", "Kneading", "Battering", "Simmering", "Drizzling"];
 
 
-var lionWords = w17_1;
-var waterWords = w17_2;
+var lionWords = w13_1;
+var waterWords = w13_2;
 
 // Script code below:  --------------------------------------------------------------------------------------------------------\\
 
