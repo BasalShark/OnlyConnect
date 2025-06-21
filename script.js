@@ -67,8 +67,8 @@ var Oli1 = ["Bread", "Water", "New England Homes for the Deaf", "Envy (DEU)", "A
 var Oli2 = ["The North Pole", "EastEnders", "Westminster Abbey", "South Park", "Hollyoaks", "Dynasty", "Coronation Street", "Al Hayba", "Bethlehem", "Mecca", "Vatican", "Jerusalem", "Victory", "Sun", "Beautiful", "New"];
 var Filip = ["Gallium", "Rubidium", "Caesium", "Francium", "Mercury", "Penis", "Leech", "Cayenne Pepper", "Barrel", "Glazing","Edged-Sword", "Helix", "Kneading", "Battering", "Simmering", "Drizzling"];
 
-var lionWords = Foot1;
-var waterWords = Foot2;
+var lionWords = w17_1;
+var waterWords = w17_2;
 
 // Script code below:  --------------------------------------------------------------------------------------------------------\\
 
