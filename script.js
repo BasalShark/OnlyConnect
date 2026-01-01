@@ -33,42 +33,25 @@ var w16_1 = ["Baby", "Pile", "Screw", "Device", "Palm", "Cards", "Stars", "Cryst
 var w16_2 = ["Fortnite", "Daze", "Ours", "Weak", "Halo", "Battlefield", "Overwatch", "Valorant", "Destiny", "Pearl Krabs", "Monstro", "Moby Dick", "Rust", "Scab", "Blight", "Gall"]
 var w17_1 = ["Strands", "Connections", "Mini", "Tiles", "Bonds", "Stocks", "Estate", "Notes", "Links", "Ties", "Nexus", "Unions", "Tombola", "Crypto", "Vaulting", "Gravel"]
 var w17_2 = ["Pop", "Cicero", "Squish", "Uh-uh", "Sweet", "Dent", "Flour", "Flint", "Six", "Blister", "Ice", "Rat", "Back", "Apron", "Spindle", "Crossrail"]
+var w18_1 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Williams", "Elfman", "Silvestri"];
+var w18_2 = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
+var w19_1 = ["Dynasties", "Asia", "Life", "Parenthood", "Bottle cap", "Rupee", "Drake", "Stud", "Bell", "Hamilton", "Skarsg\u00E5rd", "Pope", "Shades", "Fishhook", "Markkaa", "Madagascar"]
+var w19_2 = ["Copilot", "Neon", "Leo", "Gemini", "Capricorn", "Cancer", "Aries", "Virgo", "Scorpio", "Onager", "Ballista", "Mangonel", "Libra", "Tiger", "Angela", "Conga"];
 
 //Other walls (Mine)
-var Egg1 = ["Foot", "League", "Stone", "Cable", "Hair", "Disco", "Swing", "Masked", "Reel", "Line", "Rod", "Hook", "Crunch", "Kirk", "America", "Caveman"];
-var Egg2 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
-var Egg3 = ["Beethoven", "Snowy", "Pluto", "Bolt", "Spike", "Pass", "Serve", "Dig", "Bed", "Water", "Window", "Reference", "Zimmer","Bach", "Sondheim", "Schumann"];
-var Egg4 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Lead", "Second", "Third"];
-var Egg5 = ["Napoleon", "Wish", "Elemental", "Oppenheimer", "Barbie", "Banger", "Doona", "Sheila", "Bop", "Jam", "Anthem", "Tune", "Spin", "Twist", "Flick", "Pull"];
-var Egg6 = ["Animal", "Beaker", "Scooter", "Pepe", "Bean", "Spicer", "Mendes", "Penn", "Ronaldo", "Silva", "Moutinho", "Lopes", "Lollops", "Strides", "Bounds", "Springs"];
-var Egg7 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
-var Egg8 = ["Tragedy", "Heartbeat", "Stomp", "Chain Reaction", "Combustion", "Search", "Jet", "Steam", "Jeopardy", "Password", "Double Dare", "Wipeout", "Pin", "Biometric", "Certificate", "Key"];  
-//var Egg9 = ["Jelen", "Folly", "Bayley", "Rope", "Barratt", "Wimpey", "Bellway", "Persimmon", "Mason", "Canopic", "Jam", "Bell", "West", "Chadwick", "Whitfield", "Glasgow", "Hussain"];
-//var Egg10 = ["Grieve", "Richards", "Rankin", "Smart", "Eye", "Queue", "Tea", "Oh", "Holland", "Jones", "Cruise", "Hooper", "Curran", "Sultan", "Fi", "Dat"];
+var Egg1 = ["Stone", "Information", "Middle", "Bronze", "Angel", "Lemon", "Basking", "Tiger", "Rolling", "Median", "Mean", "Mode", "Classical", "Soul", "Rock", "Blues"];
+var Egg2 = ["Bar", "Signature", "Quaver", "Rest", "Word", "Road", "Bill", "Breeding", "Square", "Kettle", "Walker", "Sensation", "Skip", "Reverse", "Draw", "Five"];
+var Egg3 = ["Napoleon", "Wish", "Elemental", "Oppenheimer", "Barbie", "Banger", "Doona", "Sheila", "Bop", "Jam", "Anthem", "Tune", "Spin", "Twist", "Flick", "Pull"];
+var Egg4 = ["Animal", "Beaker", "Scooter", "Pepe", "Bean", "Spicer", "Mendes", "Penn", "Ronaldo", "Silva", "Moutinho", "Lopes", "Lollops", "Strides", "Bounds", "Springs"];
+var Egg5 = ["Car", "Home", "Sea", "Love", "Pascal", "Flounder", "Rajah", "Meeko", "Verde", "Town", "Cod", "Blanc", "Sable", "Isabel", "Nook", "Blathers"];
+var Egg6 = ["Tragedy", "Heartbeat", "Stomp", "Chain Reaction", "Combustion", "Search", "Jet", "Steam", "Jeopardy", "Password", "Double Dare", "Wipeout", "Pin", "Biometric", "Certificate", "Key"];  
+//var Egg7 = ["Jelen", "Folly", "Bayley", "Rope", "Barratt", "Wimpey", "Bellway", "Persimmon", "Mason", "Canopic", "Jam", "Bell", "West", "Chadwick", "Whitfield", "Glasgow", "Hussain"];
+//var Egg8 = ["Grieve", "Richards", "Rankin", "Smart", "Eye", "Queue", "Tea", "Oh", "Holland", "Jones", "Cruise", "Hooper", "Curran", "Sultan", "Fi", "Dat"];
 var Foot1 = ["Actress", "Grandfather", "Sailor", "Barman", "Dancer", "Song", "Matata", "Standing", "Bard", "Robing", "Slate", "Outside", "Robber", "Settlement", "Lumber", "Almanac"];
 var Foot2 = ["Sister", "Barwoman", "Mother", "Orphan", "Businessman", "Cardinal", "Trampoline", "Taxidermist", "Explorer", "Fiesta", "Mustang", "Focus", "Sheriff", "High", "Land", "Session"];
 
-//Other walls (Not mine)
-var Molly = ["Never", "Master", "Mega", "Hive", "Honey", "Bronze", "Rust", "Sunrise" ,"Civic", "Radar", "Noon", "Madam", "Tango", "Foxtrot", "Kilo", "Echo"];
-var MollyGeorge = ["Tornado", "Mosquito", "Mohawk", "Lightning", "Mull", "Rum", "Yell",  "Holy",  "Hurricane", "Wine", "Flute", "Shot", "Bath", "Beer", "Place", "Door"];
-var CallumStruan = ["Skye", "Raider", "Perri", "Strokes", "Killers", "Kooks", "Wombats", "Weeknd", "Crown", "Kangaroo", "Sheriff", "High", "Cause", "A", "By", "Path"];
-var CallumDylanCharlie = ["Vision", "Scope", "Graph", "Phone", "Who", "Al", "Evil", "Strange", "Condor", "Wolverine", "Ghost", "Pelican", "Flash", "Robin", "Atom", "Storm"]
-var CharlieAnnie1 = ["Season", "Suit", "Humour", "Musketeer", "Muse", "Hypnosis", "Narcissism", "Atlas", "Blur", "Pilot", "Wings", "Queen", "Expose", "Rotate", "Filter", "Crop"];
-var CharlieAnnie2 = ["Spine", "Leaf", "Sleeve", "Index", "Pinky", "Scrat", "Basil", "Simon", "Ring", "Tape", "Earth", "Hook", "Rodgers", "Hall", "Lennon", "Sonny"];
-var AishlingStruan = ["Glass", "Shadow", "Witness", "Lash", "Intersection", "Fall", "Chips", "Pants", "Straight", "Flush", "Pair", "House", "Granny", "Stopper", "Reef", "Slip"];
-var MillieIslayLouise1 = ["Persian", "Norwegian Forest", "Munchkin", "Cheshire", "Red", "Bee", "Elizabeth II", "Land", "Screen", "Finger", "News", "Digital", "Dean", "Sherwood", "Dalby", "Galloway"];
-var MillieIslayLouise2 = ["Marigold", "Mustard", "Canary", "Lemon", "Tulips", "Carnations", "Daisies", "Buttercup", "Rose", "Lilly", "Islay", "Millie", "Ball", "Stool", "Print", "Note"];
-var Mhairi = ["Recombinant", "Crossing", "Assortment", "Variation", "Light", "Cone", "Dim", "Colour", "Consent", "Replacement", "Legislation", "Refinement", "Cooperativity", "Active", "Other", "Change"];
-var Anonymous = ["Mouth", "Hole", "Hound", "Bent", "Fever", "Days", "Rules", "Ball", "Mooo", "Candy", "Streets", "Freak", "Beach", "Fall", "Now", "Humanz"];
-var JackCallum1 = ["Cat","Kabota","New Holland","Case","Watts","Pine","Rock","Pratt","Reindeer","Narwhal","Sea Lion","Beluga","Dragon","Blue Spruce","Curry","Banyan"];
-var JackCallum2 = ["Ney","Marut","Bernadotte","Davout","Moo","Baa","Eee-aaawwww","Oink","Tiber","Thames","Hudson","Potomac","Lee","Grant","Jackson","McClellan"];
-var Calum = ["Knife", "Tsunami", "Gnome", "Pneumonoultramicroscopicsilicovolcanoconiosis", "Weetos", "Life Preserver", "Black Hole", "Torus", "Park", "Place", "Avenue", "Road", "Morgan", "Kraken", "Havana", "Lambs"]
-var Oli1 = ["Bread", "Water", "New England Homes for the Deaf", "Envy (DEU)", "Ammonia", "Methane", "Table sugar", "Fuel", "Electricity", "Intelligence", "Archery", "Shield", "Debit", "Current", "Ion", "Line"];
-var Oli2 = ["The North Pole", "EastEnders", "Westminster Abbey", "South Park", "Hollyoaks", "Dynasty", "Coronation Street", "Al Hayba", "Bethlehem", "Mecca", "Vatican", "Jerusalem", "Victory", "Sun", "Beautiful", "New"];
-var Filip = ["Gallium", "Rubidium", "Caesium", "Francium", "Mercury", "Penis", "Leech", "Cayenne Pepper", "Barrel", "Glazing","Edged-Sword", "Helix", "Kneading", "Battering", "Simmering", "Drizzling"];
-
-var lionWords = w17_1;
-var waterWords = w17_2;
+var lionWords = w19_1;
+var waterWords = w19_2;
 
 // Script code below:  --------------------------------------------------------------------------------------------------------\\
 
