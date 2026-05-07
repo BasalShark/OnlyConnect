@@ -49,7 +49,7 @@ var Egg6 = ["Tragedy", "Heartbeat", "Stomp", "Chain Reaction", "Combustion", "Se
 //var Egg8 = ["Grieve", "Richards", "Rankin", "Smart", "Eye", "Queue", "Tea", "Oh", "Holland", "Jones", "Cruise", "Hooper", "Curran", "Sultan", "Fi", "Dat"];
 var Foot1 = ["Actress", "Grandfather", "Sailor", "Barman", "Dancer", "Song", "Matata", "Standing", "Bard", "Robing", "Slate", "Outside", "Robber", "Settlement", "Lumber", "Almanac"];
 var Foot2 = ["Sister", "Barwoman", "Mother", "Orphan", "Businessman", "Cardinal", "Trampoline", "Taxidermist", "Explorer", "Fiesta", "Mustang", "Focus", "Sheriff", "High", "Land", "Session"];
-var Game1 = ["17 Pyrrhotite", "22 Malachite", "21 Sapphire", "7 Petalite", "4 Diamond", "4 Pearl", "2 Silver", "3 Sapphire", "11 Topaz", "7 Ruby", "10 Sapphire", "4 Diamond", "2 Gypsum", "3 Calcite", "10 Diamond", "8 Topaz"];
+var Game1 = ["17 Pyrrhotite", "22 Malachite", "21 Sapphire", "7 Petalite", "4 Diamond", "4 Pearl", "2 Silver", "3 Sapphire", "11 Topaz", "7 Ruby", "9 Sapphire", "5 Emerald", "2 Gypsum", "3 Calcite", "10 Diamond", "8 Topaz"];
 
 
 var lionWords = Game1;
